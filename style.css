@@ -230,3 +230,65 @@ body {
 	font-family: Nunito Sans;
 	font-style: normal;
 }
+@media only screen and (max-width: 600px) {
+    .Group-5 {
+    height: 100px;
+    width:100px;
+    }
+    .Group-4{
+        height: 100px;
+        width:100%;
+    }
+    .Rectangle3{
+        width:300px;
+        height: 100px;
+        bottom:10%;
+        position: relative;
+        left: 25%;
+    }
+    .Rectangle4 {
+        width: 300px;
+        height: 200px;
+        bottom:10%;
+        position: relative;
+        /*left: 75px;*/
+
+    }
+    .Rectangle4 p {
+        font-size: 20px;
+       
+    }
+    .Group-3{
+        height: 200px;
+        width:100%;
+    }
+   /* .Rectangle4 p.price-details {
+        font-size: 20px; 
+    }*/
+    .Rectangle5 {
+        font-size: 12px;
+       width: 130px;
+        /*line-height: 42px;*/
+    }
+    .Rectangle2 {
+       left:0%;
+        width: 100%;
+       
+    }
+    .menu {
+       /* position: relative;
+       top: 170%;
+       left:300px;
+       width:300px;
+       height:300px;*/
+       display: none;
+    }
+    /*.menu-container{
+        top:70%;
+        position: relative;
+        width: 200px;
+        margin: 0px;
+        left:300px;
+        
+    }*/
+}
